@@ -1,0 +1,8 @@
+- id: 1
+  expected: 200
+
+- id: 2
+  expected: 200
+
+- id: 9999
+  expected: 404

@@ -1,8 +1,8 @@
 import yaml 
 
-from common.request_client_1 import RequestClient_1
+from common.request_client import RequestClient
 
-client_1=RequestClient_1()
+client_1=RequestClient()
 
 with open("config/config.yaml",encoding="utf-8") as f:
     config=yaml.safe_load(f)
